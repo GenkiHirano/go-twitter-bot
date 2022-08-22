@@ -1,1 +1,3 @@
-**golang**でTwitter Botを作ります。
+# 概要
+
+- GoでTwitter Bot開発
