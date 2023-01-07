@@ -1,11 +1,8 @@
 package main
 
 import (
-"fmt"
-"time"
-. "fmt"
-. "./keys"
-. "github.com/***/tweetbot/text"
+	"fmt"
+	"time"
 )
 
 func main() {
@@ -38,7 +35,6 @@ func TimerFunc(stopTimer chan int) {
                     panic(err)
                 }
                 Print(tweet.Text)
-                //}
             case <-stopTimer:
                 fmt.Println("Timer stop.")
                 ticker.Stop()

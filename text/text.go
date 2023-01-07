@@ -1,15 +1,15 @@
 package text
 
 import (
-    "time"
-    "fmt"
+	"fmt"
+	"time"
 )
 
 func ChooseTweet()string{
 
     TweetList :=  [31]string{
         "golangを使ってtwitter botを作ってみた" ,
-        "成功してることを祈ります。"
+        "成功してることを祈ります。",
     }
 
     d := time.Now().Day()
